@@ -23,7 +23,7 @@ There are five settings for kernel-mode crash dump files:
 
 [Active Memory Dump](active-memory-dump.md)
 
-The difference between these dump files is one of size. The *Complete Memory Dump* is the largest and contains the most information, including some User-Mode memory. The *Active Memory Dump* is somewhat smaller but contains similar information for most purposes.  The *Kernel Memory Dump* is smaller still and typically omits User-Mode memory, and the *Small Memory Dump* is only 64 KB in size.
+The difference between these dump files is one of size. The *Complete Memory Dump* is the largest and contains the most information, including both the kernel-mode and User-Mode memory. The *Active Memory Dump* is somewhat smaller but contains similar information for most purposes.  The *Kernel Memory Dump* is smaller still and typically omits User-Mode memory, and the *Small Memory Dump* is only 64 KB in size.
 
 If you select *Automatic Memory Dump*, the dump file is the same as a Kernel Memory Dump, but Windows has more flexibility in setting the size of the system paging file.
 
